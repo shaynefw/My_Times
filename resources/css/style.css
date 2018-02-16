@@ -10,6 +10,8 @@ header {
   position: fixed;
   align-items: center;
   justify-content:space-between;
+  z-index: 1;
+  background-color: white;
 }
 header div {
   display: flex;
@@ -34,3 +36,48 @@ nav span {
 nav a {
   color: black;
 }
+
+/* main-content */
+.main-content {
+  display: flex;
+  padding-top: 110px;
+  border: 1px solid black;
+  justify-content: space-between;
+
+}
+
+/* Left column */
+
+.column1 {
+  width: 630px;
+}
+.content1 {
+  border: 1px solid black;
+}
+.content1 div {
+  border: 1px solid black;
+}
+.content2 {
+  border: 1px solid black;
+}
+.content2 div {
+  border: 1px solid black;
+}
+.content3 {
+  border: 1px solid black;
+}
+.content3 div {
+  border: 1px solid black;
+}
+ /* middle column */
+ .column2 {
+   width: 300px;
+ }
+
+ /* right column */
+
+ .column3 {
+   display: flex;
+   width: 240px;
+   padding-right: 34px;
+ }
