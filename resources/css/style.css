@@ -39,3 +39,66 @@ nav span {
 nav a {
   color: black;
 }
+
+/* article section */
+
+article {
+  display: flex;
+  border: 1px solid black;
+  padding-top: 120px;
+  justify-content: center;
+}
+.col-lar, .col-mid, .col-sma {
+
+}
+.col-sec {
+  border: 1px solid black;
+}
+.col-sec p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.col-sec h2, h3 {
+  padding-top: 15px;
+}
+
+/* first column */
+
+.col-lar {
+  border: 1px solid black;
+  width: 630px;
+}
+#cs1-header {
+  border: 1px solid black;
+}
+#cs2-header {
+  border: 1px solid black;
+}
+#cs3-header {
+  border: 1px solid black;
+}
+
+/* middle column */
+
+.col-mid {
+  border: 1px solid black;
+  width: 300px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#cs4-header {
+  border: 1px solid black;
+}
+
+/* end column */
+
+.col-sma {
+  border: 1px solid black;
+  width: 240px;
+}
+#cs5-header {
+  border: 1px solid black;
+}
+#cs5-header h3 {
+  padding-bottom: 10px;
+}
