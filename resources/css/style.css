@@ -18,10 +18,10 @@ header {
   font-size: 14px;
   font-weight: bold;
   justify-content: space-between;
-  border-bottom: 1px solid black;
   position: fixed;
   background-color: white;
   width: 100%;
+  border-bottom: 2px solid mediumaquamarine;
 }
 header div {
   margin: 10px 24px;
@@ -44,7 +44,6 @@ nav a {
 
 article {
   display: flex;
-  border: 1px solid black;
   padding-top: 120px;
   justify-content: center;
   padding-bottom: 60px;
@@ -53,7 +52,6 @@ article {
 
 }
 .col-sec {
-  border: 1px solid black;
 }
 .col-sec p {
   padding-top: 20px;
@@ -75,15 +73,13 @@ article {
 /* first column */
 
 .col-lar {
-  border: 1px solid black;
   width: 630px;
 }
 #cs1-header {
-  border: 1px solid black;
   background-image: url("../images/img-story-main.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 225px;
+  padding: 5.5em 1em;
 }
 #cs1-header span {
   font-family: georgia;
@@ -92,42 +88,76 @@ article {
   color: white;
 }
 #cs2-header {
-  border: 1px solid black;
   background-image: url("../images/img-story-2.png");
-  padding-bottom: 260px;
+  padding: 8em 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
 }
 #cs3-header {
-  border: 1px solid black;
   background-image: url("../images/img-story-3.png");
   text-align: center;
-  padding-bottom: 225px;
+  padding: 100px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
 /* middle column */
 
 .col-mid {
-  border: 1px solid black;
   width: 300px;
   padding-left: 40px;
   padding-right: 40px;
 }
 #cs4-header {
-  border: 1px solid black;
   background-image: url("../images/img-story-1.png");
-  padding-bottom: 228px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 7em 2em;
   text-align: center;
 }
 
 /* end column */
 
 .col-sma {
-  border: 1px solid black;
   width: 240px;
 }
 #cs5-header {
-  border: 1px solid black;
 }
 #cs5-header h3 {
   padding-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+  background-color: mediumaquamarine;
+  padding: 8em;
+  text-align: center;
+  line-height: 2em;
+}
+#myt-footer {
+
+}
+#myt-footer span {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: white;
+}
+#myt-footer ul {
+  display: inline-flex;
+}
+#myt-footer ul li {
+  list-style-type: none;
+  padding: 0px 1em;
+}
+#myt-footer ul li a {
+  color: black;
+}
+#myt-footer ul li a:hover {
+
 }
